@@ -2,16 +2,27 @@
   "type": "module",
   "name": "full-stack-developer-server-node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
     "cors": "^2.8.5",
-    "express": "^4.17.3"
-  }
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macksonyli21826/full-stack-developer-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/macksonyli21826/full-stack-developer-server/issues"
+  },
+  "homepage": "https://github.com/macksonyli21826/full-stack-developer-server#readme",
+  "description": ""
 }
